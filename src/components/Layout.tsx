@@ -1,16 +1,15 @@
 import React from "react";
-//import Header from "header";
+import Header from "./navbar";
 
 export default function Layout() {
     return (
-        //<div style={contentLayout}>
-        <h1>test</h1>
+        <div>
+            <Header/>
             
-        //</div>
+        </div>
     );
 }
 
-/*const contentLayout: CSSProperties = {
-    width: '100%',
-    display: 'flex'
+/*const contentLayout: React.CSSProperties = {
+    
 }*/
