@@ -5,7 +5,11 @@ import Layout from "./Layout";
 //interface MyApp { compiler: string; framework: string; }
 
 export default function App() {
-    return <Layout/>;
+    return (
+        <div style = { container }>
+        <Layout/>
+        </div>
+        )
 }
 
 /*const centeredContent: React.CSSProperties = {
@@ -18,3 +22,10 @@ export default function App() {
     textAlign: 'center',
     margin: '0'
 }*/
+
+const container: React.CSSProperties = {
+    position: 'absolute',
+    backgroundColor: '#393736',
+    width: '100%',
+    height: '100%'
+}
